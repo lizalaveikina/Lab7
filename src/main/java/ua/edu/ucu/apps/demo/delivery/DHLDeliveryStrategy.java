@@ -7,7 +7,8 @@ import ua.edu.ucu.apps.demo.flowers.Item;
 public class DHLDeliveryStrategy implements Delivery {
     @Override
     public List<Item> deliver(List<Item> items) {
-        System.out.println("DHL delivery method");
+        
+        System.out.println("Delivered by DHL");
         return items;
     }
 }
