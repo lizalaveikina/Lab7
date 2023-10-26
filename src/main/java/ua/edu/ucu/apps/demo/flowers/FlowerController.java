@@ -1,6 +1,5 @@
 package ua.edu.ucu.apps.demo.flowers;
 
-
 import java.util.List;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.RequestMapping;
