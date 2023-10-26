@@ -14,12 +14,12 @@ public class Order {
         this.ordered = items;
     }
 
-    public void setPaymentMethod(Payment chosenPayment) {
-        this.payment = chosenPayment;
-    }
-
     public void setDeliverStrategy(Delivery chosenDelivery) {
         this.delivery = chosenDelivery;
+    }
+
+    public void setPaymentMethod(Payment chosenPayment) {
+        this.payment = chosenPayment;
     }
 
     public double countPrice() {
