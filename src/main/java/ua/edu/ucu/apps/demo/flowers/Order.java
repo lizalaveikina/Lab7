@@ -28,9 +28,9 @@ public class Order {
 
     public void processingOrder() {
         if (this.payment.pay(countPrice()) == countPrice()) {
-            System.out.println("Payed");
+            System.out.println("Client has payed");
             this.delivery.deliver(this.ordered);
-            System.out.println("Delivered");
+            System.out.println("Order was delivered");
         }
     }
 
