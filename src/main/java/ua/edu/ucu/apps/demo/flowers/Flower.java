@@ -17,9 +17,4 @@ public class Flower extends Item {
         return price;
     }
 
-    // @Override
-    // public String getDescription() {
-    //     return "this is a flower";
-    // }
-
 }
