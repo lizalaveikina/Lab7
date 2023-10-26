@@ -23,25 +23,3 @@ public class Flower extends Item {
     }
 
 }
-
-// import lombok.AllArgsConstructor;
-
-// import lombok.Getter;
-// import lombok.Setter;
-
-// @Getter @Setter @AllArgsConstructor
-// public class Flower extends Item{
-
-//     private double price;
-//     private double sepalLength;
-//     private FlowerColor color;
-
-//     public String getColor() {
-//         return color.toString();
-//     }
-
-//     public double getPrice() {
-//         return price;
-//     }
-
-// }
