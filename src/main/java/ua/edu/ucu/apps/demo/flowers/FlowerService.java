@@ -10,11 +10,11 @@ public class FlowerService {
     private FlowerRepository flowerRepository;
 
     @Autowired
-    public FlowerService(FlowerRepository flowerRepository){
+    public FlowerService(FlowerRepository flowerRepository) {
         this.flowerRepository = flowerRepository;
     }
 
-    public List<Flower> getFlowers(){
+    public List<Flower> getFlowers() {
         return  flowerRepository.findAll();
     }
 
